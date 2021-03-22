@@ -63,6 +63,28 @@
 	padding: 0 .25rem;
   }
 
+
+.button:hover {
+  letter-spacing: 0.8em;
+  background-color: #F08C99;
+}
+
+.button {
+	color: white;
+  height: 4em;
+  width: 10%;
+  padding: 1.5em auto;
+  margin: 1em auto;
+  background-color: rgba(77, 5, 232, 1);
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  transition: all 0.2s cubic-bezier(.4,0,.2,1);
+ 
+}
+
+
   @media all and (max-width: 768px) {
 	h1 {
 	  font-size: 1.5rem;
