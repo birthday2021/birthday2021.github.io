@@ -50,9 +50,6 @@
 	font-size: 4.5rem;
   }
 
-  .message {
-	font-size: 4rem;
-  }
 
   #content {
 	display: none;
@@ -64,16 +61,15 @@
   }
 
 
-.button:hover {
+button:hover {
   letter-spacing: 0.8em;
   background-color: #F08C99;
 }
 
-.button {
+button {
 	color: white;
-  height: 4em;
   width: 10%;
-  padding: 1.5em 1em;
+  padding: 1.5em 1.5em;
   margin: 1em auto;
   background-color: rgba(77, 5, 232, 1);
   border: none;
